@@ -1,0 +1,28 @@
+{
+  "name": "testes_historia_clinica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "pkg": {
+    "assets": [
+      "view/\\*\\*/\\*"
+    ],
+    "target": [
+      "node7"
+    ]
+  },
+  "author": "Guilherme",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "node-firebird": "^0.8.10",
+    "pkg": "^5.8.0",
+    "replace": "^1.2.1",
+    "sequelize": "^6.25.2"
+  }
+}
